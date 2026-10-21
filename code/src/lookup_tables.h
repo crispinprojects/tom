@@ -157,6 +157,10 @@ static const PhonemeDescriptor tom_phoneme_rules[] = {
 	{ "SIL",    0,    0,    0,    0,    0,    0,   0,   0,   0, 0, 0, 0,   0,  0,  0,  0,  0,  0, PH_SILENCE }
 };
 
+/**
+ * @def TOTAL_TOM_PHONEMES
+ * @brief Macro defining the total number of phonemes in the tom_phoneme_rules table.
+ */
 #define TOTAL_TOM_PHONEMES (sizeof(tom_phoneme_rules) / sizeof(tom_phoneme_rules[0]))
 
 #endif
